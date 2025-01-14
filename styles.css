@@ -1,0 +1,117 @@
+/*
+sivun yläreuna
+*/
+h1 {
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+    margin-top: 5px;
+}
+
+body{
+    background-color: black;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: white;
+    border-style: dashed;
+}
+
+.ylareuna {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 1px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-style:dashed;
+    border-color: gray;
+}
+
+.osio {
+    width: 100%;
+    background-color: black;
+}
+
+.osio2{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.alaReuna{
+    border-bottom: white;
+    border-style: solid;
+}
+
+.valiotsikko{
+    font-size: 1.3pc;
+    font-weight: bold;
+}
+
+.valiotsikko2{
+    font-size: 1.1pc;
+    font-weight: 600;
+}
+
+.listaPallo{
+    list-style: disc;
+}
+
+.listaPallo2{
+    list-style: circle;
+}
+
+
+
+
+
+.arviointi {
+  max-width: 40%;
+}
+
+th{
+padding-right: 100px;
+}
+
+tr{
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid rgb(255, 255, 255); /* Lisää viiva */
+    padding: 8px;
+    text-align: left;
+}
+
+tr:last-child td {
+    border-bottom: none; /* Poista viimeisen rivin viiva */
+}
+
+
+
+#lista1{
+    padding-left: 5%;
+    list-style: disc;
+    color: white;
+}
